@@ -4,6 +4,7 @@
     <title>Gretchen Plant - Portfolio</title>
     <link rel="stylesheet" href="./style.css"/>
     <script src="./script.js"></script>
+    <script src="https://kit.fontawesome.com/ab49192856.js" crossorigin="anonymous"></script>
   </head>
   <body>
     <!-- Navigation Bar -->
@@ -12,19 +13,17 @@
         <div class="profile_name">
           Gretchen Plant
           <div class="contact_info">
-            <img src="html_finalprojimages/envelope.png" alt="https://icons8.com/icon/124377/circled-envelope"/>
-          jdoe@jeemail.com
+            <i class="fa-solid fa-envelope fa-lg"></i>
+          gretchen.e.plant@gmail.com
         </div>
-        <div style="clear:both;"></div>
+        
         <div class="contact_info">
-          <img src="html_finalprojimages/phone.png" alt="https://icons8.com/icon/124377/circled-envelope"/>
-          +13456764598
-
+          <i class="fa-solid fa-phone fa-lg"></i>
+          +1-724-759-1004
         </div>
         </div>
         <div class="topdiv">
           <a class="topmenu" href="#about-me">About Me</a>
-          <!-- Add the links for Skills, Projects and Recommendation here -->
           <a class="topmenu" href="#skills">Skills</a>
           <a class="topmenu" href="Projects">Projects</a>
           <a class="topmenu" href="#Recommendations">Recommendations</a>
@@ -44,7 +43,8 @@
             Hi, I'm Gretchen!
           </h1>
           <p>
-            I am a Sr. 3D Designer with 6 years of experience branching out into the Front End Development field.
+            I am a Sr. 3D Designer with 6 years of experience branching out into the Front End Development field. 
+            A career working in the 3D space allows me to have a great eye for design and spacing that will translate very well to creating cohesive and accessible web pages. 
             I am excited about starting a new career in the field of Web Development and the creative problem solving that comes along with it.
           </p>
       </div>
@@ -57,19 +57,19 @@
 
       <div class="all_skills">
         <div class="skill">
-          <img src="html_finalprojimages/html5.png"/>
+          <i class="fa-brands fa-html5 fa-2xl"></i>
           <h6>HTML</h6>
           <p>2 years experience</p>
         </div>  
 
         <div class="skill">
-          <img src="html_finalprojimages/js.jpeg"/>
+          <i class="fa-brands fa-js fa-2xl"></i>
           <h6>JavaScript</h6>
           <p>3 years experience</p>
         </div>  
         <!-- Add more skills here -->
         <div class="skill">
-            <img src="html_finalprojimages/icons8-3d-modeling-32.png"/>
+          <i class="fa-solid fa-cube fa-2xl"></i>
             <h6>3D Modeling</h6>
             <p>6 years experience</p>
           </div>
@@ -115,6 +115,13 @@
             <h3>Server Management</h3>
             <ul>
               <li>Managed and supported a community for an indie game company through the launch of their title game.</li>
+            </ul>
+          </div>
+          <hr>
+          <div class="project-card">
+            <h3>Portfolio Website</h3>
+            <ul>
+              <li>Created this webpage to display front-end development skills and to host links to additional projects.</li>
             </ul>
           </div>
     </div>
@@ -173,8 +180,11 @@
 
     <div class="popup" id="popup" class="flex_center">
       <img src="html_finalprojimages/checkmark--outline.svg"/>
-      <h3><!-- Add appropriate text here--></h3>
-      <button onclick="showPopup(false)">Ok</button>
+      <h3>Recommendation Submitted! Thank you!</h3>
+      <button onclick="showPopup(true)">Ok</button>
+    </div>
+    <div id="footer">
+      
     </div>
   </body>
 </html>
