@@ -304,6 +304,7 @@ fieldset {
   border: transparent;
   width: 50%;
 }
+
 /* Footer */
 #footer {
   background-color:  #0061bc;
@@ -314,6 +315,10 @@ fieldset {
   padding-top: 2cm;
   padding-bottom: 2cm;
   
+}
+
+.fa-linkedin {
+  align-content: center;
 }
 
 
